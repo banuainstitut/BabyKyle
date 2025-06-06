@@ -189,7 +189,7 @@
         // Data kursus terstruktur berdasarkan level dan tema
         const courseLevels = {
             level1: {
-                title: "Level 1: Dasar-Dasar Awal (Usia 1-2 Tahun)",
+                title: "Level 1: Kata-kata Pertama (Usia 1-2 Tahun)",
                 themes: {
                     greetings: {
                         title: "Ucapan Salam",
@@ -203,41 +203,57 @@
                         ]
                     },
                     family: {
-                        title: "Keluargaku Tersayang", // Judul tema diubah
+                        title: "Aku dan Keluargaku", // Judul tema diubah
                         words: [
-                            { german: "Oma", indonesian: "Nenek", imageUrl: "https://placehold.co/128x128/FFC0CB/000000?text=👵+Nenek" },
-                            { german: "Opa", indonesian: "Kakek", imageUrl: "https://placehold.co/128x128/ADD8E6/000000?text=👴+Kakek" },
-                            { german: "Mama", indonesian: "Ibu", imageUrl: "https://placehold.co/128x128/FFB6C1/000000?text=👩+Ibu" },
-                            { german: "Papa", indonesian: "Ayah", imageUrl: "https://placehold.co/128x128/87CEEB/000000?text=👨+Ayah" },                            { german: "Ich liebe dich!", indonesian: "Aku sayang kamu!", imageUrl: "https://placehold.co/128x128/DA70D6/000000?text=💖+Sayang" } // Perubahan kata menjadi frasa dengan gambar
+                            { german: "Ich", indonesian: "Aku", icon: "👶" },
+                            { german: "Oma", indonesian: "Oma", icon: "👵" },
+                            { german: "Opa", indonesian: "Kakek", icon: "👴" },
+                            { german: "Mama", indonesian: "Ibu", icon: "👩" },
+                            { german: "Papa", indonesian: "Papa", icon: "👨" },                            
+                            { german: "Ich liebe dich!", indonesian: "Aku sayang kamu!", icon: "💖" } // Perubahan kata menjadi frasa dengan gambar
                         ]
                     },
                     objects: {
-                        title: "Benda-benda Sekitar",
+                        title: "Benda-benda Sekitarku",
                         words: [
                             { german: "Ball", indonesian: "Bola", icon: "⚽" },
                             { german: "Frosch", indonesian: "Kodok", icon: "🐸" },
                             { german: "Buch", indonesian: "Buku", icon: "📖" },
                             { german: "Auto", indonesian: "Mobil", icon: "🚗" },
                             { german: "Wasser", indonesian: "Air", icon: "💧" },
+                            { german: "Uhr", indonesian: "Jam", icon: "🕰️" },
                             { german: "Milch", indonesian: "Susu", icon: "🥛" }
                         ]
                     },
                     actionsActivities: {
-                        title: "Aksi & Kegiatan Harian",
+                        title: "Kegiatanku",
                         words: [
                             { german: "Schlafen", indonesian: "Tidur", icon: "😴" },
                             { german: "Essen", indonesian: "Makan", icon: "🍽️" },
-                            { german: "Spielen", indonesian: "Bermain", icon: "🧸" }, // Emoji diubah kembali
+                            { german: "Ich Spiele", indonesian: "Aku Bermain", icon: "🤹‍♂️" }, 
                             { german: "Komm!", indonesian: "Mari ke sini!", icon: "👉" },
                             { german: "Gehen", indonesian: "Jalan", icon: "🚶‍♂️" },
                             { german: "Laufen", indonesian: "Lari", icon: "🏃‍♀️" }, // Menggunakan emoji pelari perempuan
                             { german: "Los!", indonesian: "Ayok!", icon: "👋" }
                         ]
+                    },
+                      mybody: {
+                        title: "Anggota Tubuhku",
+                        words: [
+                            { german: "Augen", indonesian: "Mata", icon: "🙈" },
+                            { german: "Nase", indonesian: "Hidung", icon: "👃" },
+                            { german: "Ohren", indonesian: "Telinga", icon: "🙉" },
+                            { german: "Mein Mund", indonesian: "Mulutku", icon: "🙊" },
+                            { german: "Der Kopf", indonesian: "Kepala", icon: "👶" },
+                            { german: "Fuß", indonesian: "Kaki", icon: "🦶" }, // Menggunakan emoji pelari perempuan
+                            { german: "Hand", indonesian: "Tangan", icon: "🖐️" }
+                        ]
                     }
+
                 }
             },
             level2: {
-                title: "Level 2: Perbendaharaan Kata Lanjutan (Usia 2-3 Tahun)",
+                title: "Level 2: Mengenal Sekitarku (Usia 2-3 Tahun)",
                 themes: {
                     colors: {
                         title: "Warna",
@@ -274,6 +290,7 @@
                             { german: "Fisch", indonesian: "Ikan", icon: "🐟" },
                             { german: "Kuh", indonesian: "Sapi", icon: "🐮" },
                             { german: "Huhn", indonesian: "Ayam", icon: "🐥" },
+                            { german: "Ameise", indonesian: "Semut", icon: "🐜" },
                         ]
                     }
                 }
